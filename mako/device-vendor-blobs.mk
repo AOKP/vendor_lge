@@ -167,6 +167,11 @@ PRODUCT_COPY_FILES := \
     vendor/lge/mako/proprietary/dxhdcp2.b02:system/vendor/firmware/discretix/dxhdcp2.b02 \
     vendor/lge/mako/proprietary/dxhdcp2.b03:system/vendor/firmware/discretix/dxhdcp2.b03 \
     vendor/lge/mako/proprietary/dxhdcp2.mdt:system/vendor/firmware/discretix/dxhdcp2.mdt \
+    vendor/lge/mako/proprietary/keymaster.b00:system/vendor/firmware/keymaster/keymaster.b00 \
+    vendor/lge/mako/proprietary/keymaster.b01:system/vendor/firmware/keymaster/keymaster.b01 \
+    vendor/lge/mako/proprietary/keymaster.b02:system/vendor/firmware/keymaster/keymaster.b02 \
+    vendor/lge/mako/proprietary/keymaster.b03:system/vendor/firmware/keymaster/keymaster.b03 \
+    vendor/lge/mako/proprietary/keymaster.mdt:system/vendor/firmware/keymaster/keymaster.mdt \
     vendor/lge/mako/proprietary/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/lge/mako/proprietary/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
     vendor/lge/mako/proprietary/libwvm.so:system/vendor/lib/libwvm.so \
