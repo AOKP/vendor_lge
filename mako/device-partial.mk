@@ -187,4 +187,3 @@ PRODUCT_COPY_FILES := \
     vendor/lge/mako/proprietary/libloc_ds_api.so:system/vendor/lib/libloc_ds_api.so:qcom \
 
 PRODUCT_PACKAGES := libacdbloader
-
