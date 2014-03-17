@@ -116,6 +116,7 @@ PRODUCT_COPY_FILES := \
     vendor/lge/mako/proprietary/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so:qcom \
     vendor/lge/mako/proprietary/libimage-omx-common.so:system/lib/libimage-omx-common.so:qcom \
     vendor/lge/mako/proprietary/libllvm-a3xx.so:system/lib/libllvm-a3xx.so:qcom \
+    vendor/lge/mako/proprietary/libllvm-qcom.so:system/lib/libllvm-qcom.so:qcom \
     vendor/lge/mako/proprietary/libloc_core.so:system/lib/libloc_core.so:qcom \
     vendor/lge/mako/proprietary/libloc_eng.so:system/lib/libloc_eng.so:qcom \
     vendor/lge/mako/proprietary/libmercury.so:system/lib/libmercury.so:qcom \
