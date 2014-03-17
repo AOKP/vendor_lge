@@ -108,6 +108,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mako/proprietary/lib/libimage-jpeg-enc-omx-comp.so:system/lib/libimage-jpeg-enc-omx-comp.so \
     vendor/lge/mako/proprietary/lib/libimage-omx-common.so:system/lib/libimage-omx-common.so \
     vendor/lge/mako/proprietary/lib/libllvm-a3xx.so:system/lib/libllvm-a3xx.so \
+    vendor/lge/mako/proprietary/lib/libllvm-qcom.so:system/lib/libllvm-qcom.so \
     vendor/lge/mako/proprietary/lib/libloc_core.so:system/lib/libloc_core.so \
     vendor/lge/mako/proprietary/lib/libloc_eng.so:system/lib/libloc_eng.so \
     vendor/lge/mako/proprietary/lib/libmercury.so:system/lib/libmercury.so \
@@ -127,6 +128,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/mako/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
     vendor/lge/mako/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/lge/mako/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
+    vendor/lge/mako/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
     vendor/lge/mako/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/lge/mako/proprietary/lib/libqdi.so:system/lib/libqdi.so \
     vendor/lge/mako/proprietary/lib/libqdp.so:system/lib/libqdp.so \
