@@ -5,10 +5,12 @@ PRODUCT_COPY_FILES := \
 	vendor/lge/vs920/proprietary/lib/libaudioalsa.so:obj/lib/libaudioalsa.so \
 	vendor/lge/vs920/proprietary/lib/libacdbloader.so:obj/lib/libacdbloader.so \
 	vendor/lge/vs920/proprietary/lib/libacdbmapper.so:obj/lib/libacdbmapper.so \
-	vendor/lge/vs920/proprietary/lib/libv8.so:obj/lib/libv8.so
+	vendor/lge/vs920/proprietary/lib/libv8.so:obj/lib/libv8.so \
+	vendor/lge/vs920/proprietary/lib/libril.so:obj/lib/libril.so
 
 PRODUCT_COPY_FILES += \
 	vendor/lge/vs920/proprietary/lib/hw/sensors.msm8660.so:system/lib/hw/sensors.msm8660.so \
+	vendor/lge/vs920/proprietary/lib/hw/lights.msm8660.so:system/lib/hw/lights.msm8660.so \
 	vendor/lge/vs920/proprietary/etc/firmware/vidc_1080p.fw:system/etc/firmware/vidc_1080p.fw \
 	vendor/lge/vs920/proprietary/etc/firmware/BCM4330B14.hcd:system/etc/firmware/BCM4330B14.hcd \
 	vendor/lge/vs920/proprietary/lib/egl/libq3dtools_adreno200.so:system/lib/egl/libq3dtools_adreno200.so \
@@ -16,6 +18,9 @@ PRODUCT_COPY_FILES += \
 	vendor/lge/vs920/proprietary/lib/egl/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
 	vendor/lge/vs920/proprietary/lib/egl/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
 	vendor/lge/vs920/proprietary/lib/egl/eglsubAndroid.so:system/lib/egl/eglsubAndroid.so \
+	vendor/lge/vs920/proprietary/etc/firmware/fw_bcmdhd_apsta.bin:system/etc/firmware/fw_bcmdhd_apsta.bin \
+	vendor/lge/vs920/proprietary/etc/firmware/fw_bcmdhd.bin:system/etc/firmware/fw_bcmdhd.bin \
+	vendor/lge/vs920/proprietary/etc/firmware/fw_bcmdhd_p2p.bin:system/etc/firmware/fw_bcmdhd_p2p.bin \
 	vendor/lge/vs920/proprietary/etc/firmware/yamato_pfp.fw:system/etc/firmware/yamato_pfp.fw \
 	vendor/lge/vs920/proprietary/etc/firmware/yamato_pm4.fw:system/etc/firmware/yamato_pm4.fw \
 	vendor/lge/vs920/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
@@ -38,6 +43,7 @@ PRODUCT_COPY_FILES += \
 	vendor/lge/vs920/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
 	vendor/lge/vs920/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
 	vendor/lge/vs920/proprietary/lib/libtime_genoff.so:system/lib/libtime_genoff.so \
+	vendor/lge/vs920/proprietary/lib/libtime_genoff.so:obj/lib/libtime_genoff.so \
 	vendor/lge/vs920/proprietary/lib/libnv.so:system/lib/libnv.so \
 	vendor/lge/vs920/proprietary/lib/libdsm.so:system/lib/libdsm.so \
 	vendor/lge/vs920/proprietary/lib/libqueue.so:system/lib/libqueue.so \
@@ -100,10 +106,6 @@ PRODUCT_COPY_FILES += \
 # Audio
 PRODUCT_COPY_FILES += \
 	vendor/lge/vs920/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so
-
-# Camera
-PRODUCT_COPY_FILES += \
-	vendor/lge/vs920/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so
 
 # Misc services
 PRODUCT_COPY_FILES += \
