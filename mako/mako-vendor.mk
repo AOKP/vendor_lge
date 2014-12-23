@@ -1,4 +1,4 @@
-# Copyright (C) 2013 The CyanogenMod Project
+# Copyright (C) 2014 The CyanogenMod Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -16,7 +16,5 @@
 
 # Pick up overlay for features that depend on non-open-source files
 DEVICE_PACKAGE_OVERLAYS := vendor/lge/mako/overlay
-
-PRODUCT_PACKAGES += libacdbloader
 
 $(call inherit-product, vendor/lge/mako/mako-vendor-blobs.mk)
